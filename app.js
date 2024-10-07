@@ -1,9 +1,9 @@
-setInterval(CreateSnow,10)
+setIntervall(CreateSnow,10)
 
 function CreateSnow(){
     const snow = document.createElement("i");
-    snow.classList.add("fas");
-    snow.classList.add("fa-snowflake");
+    snow.classList.add("bx");
+    snow.classList.add("bxs-droplet");
 
     snow.style.left =Math.random()*window.innerWidth+"px";
     snow.style.animationDuration =Math.random()*3+1+"s";

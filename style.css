@@ -5,10 +5,12 @@
 }
 
 body{
-    background-color: rgb(5, 1, 32);
+    background-image: url('/rain.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     overflow: hidden;
 }
-.fa-snowflake{
+.bxs-droplet{
     color:#fff;
     position: absolute;
     top: -20px;
@@ -19,4 +21,8 @@ body{
         transform: translateY(105vh);
         transform: rotateX(360deg,0deg);
     }
+}
+
+.bxs-droplet {
+    color: white;
 }
